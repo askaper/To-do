@@ -7,7 +7,7 @@
     </div>
     <ul class="todos">
       <li v-for="todo in todos">
-        <span class="todo-list-item">{{ todo.thing }}</span>
+        <span class="todo-list-item">{{ todo.listItem }}</span>
       </li>
     </ul>
   </div>
@@ -20,9 +20,9 @@ export default {
     return {
       msg: 'Enter, edit, or delete the tasks you need to!',
       todos: [
-        { thing: 'Get familiar with the scaffolding in Vue/Webpack' },
-        { thing: '???' },
-        { thing: 'Profit' }
+        { listItem: 'Get familiar with the scaffolding in Vue/Webpack' },
+        { listItem: '???' },
+        { listItem: 'Profit' }
       ]
     }
   }
