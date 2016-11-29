@@ -6,7 +6,6 @@
 
 <script>
 import List from './components/List'
-import AddTask from './components/AddTask'
 
 export default {
   name: 'app',
