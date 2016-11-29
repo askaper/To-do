@@ -1,6 +1,5 @@
 <template>
   <div id="app">
-    <!-- <img src="./assets/logo.png"> -->
     <list></list>
   </div>
 </template>
@@ -12,8 +11,7 @@ import AddTask from './components/AddTask'
 export default {
   name: 'app',
   components: {
-    List,
-    AddTask
+    List
   }
 }
 </script>
